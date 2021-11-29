@@ -1,10 +1,10 @@
 //imports created html lists for employees, orders and products from each page
-import { Employees } from "./Employees.js"
-import { Orders } from "./Orders.js"
-import { Products } from "./Products.js"
+import { Employees } from "./Employees.js";
+import { Orders } from "./Orders.js";
+import { Products } from "./Products.js";
 
 //uses "container" id to add html to DOM
-const mainContainer = document.querySelector("#container")
+const mainContainer = document.querySelector("#container");
 
 //framework for html in main section of page, takes imported html lists and inserts into page
 const applicationHTML = `
@@ -24,7 +24,6 @@ const applicationHTML = `
     <h2>Orders</h2>
     ${Orders()}
 </article>
-`
+`;
 
-mainContainer.innerHTML = applicationHTML
-
+mainContainer.innerHTML = applicationHTML;
